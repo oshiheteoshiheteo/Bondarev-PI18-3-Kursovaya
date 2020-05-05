@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<ArrayOfHotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Hotel>
+    <Name>Космос</Name>
+    <Address>Проспект Мира, 150</Address>
+    <Email>reservations@hotelcosmos.ru</Email>
+    <Phone>+7 (495) 234 12 06</Phone>
+    <Rooms>
+      <Room>
+        <Roomnumber>30</Roomnumber>
+        <Price>6900</Price>
+        <Roomtype>standard</Roomtype>
+        <Person>2</Person>
+        <Reservation>true</Reservation>
+      </Room>
+      <Room>
+        <Roomnumber>45</Roomnumber>
+        <Price>11570</Price>
+        <Roomtype>semi-suite</Roomtype>
+        <Person>2</Person>
+        <Reservation>true</Reservation>
+      </Room>
+      <Room>
+        <Roomnumber>88</Roomnumber>
+        <Price>28200</Price>
+        <Roomtype>luxe</Roomtype>
+        <Person>3</Person>
+        <Reservation>true</Reservation>
+      </Room>
+      <Room>
+        <Roomnumber>6</Roomnumber>
+        <Price>19600</Price>
+        <Roomtype>suite</Roomtype>
+        <Person>3</Person>
+        <Reservation>false</Reservation>
+      </Room>
+      <Room>
+        <Roomnumber>102</Roomnumber>
+        <Price>15000</Price>
+        <Roomtype>suite</Roomtype>
+        <Person>1</Person>
+        <Reservation>true</Reservation>
+      </Room>
+    </Rooms>
+  </Hotel>
+  <Hotel>
+    <Name>Radisson Славянская</Name>
+    <Address>Площадь Европы, 2</Address>
+    <Email>reservations.moscow@radisson-hotels.ru</Email>
+    <Phone>+7 495 941 80 20</Phone>
+    <Rooms>
+      <Room>
+        <Roomnumber>1</Roomnumber>
+        <Price>7400</Price>
+        <Roomtype>standard</Roomtype>
+        <Person>2</Person>
+        <Reservation>true</Reservation>
+      </Room>
+      <Room>
+        <Roomnumber>23</Roomnumber>
+        <Price>21000</Price>
+        <Roomtype>luxe</Roomtype>
+        <Person>2</Person>
+        <Reservation>true</Reservation>
+      </Room>
+      <Room>
+        <Roomnumber>98</Roomnumber>
+        <Price>11400</Price>
+        <Roomtype>semi-suite</Roomtype>
+        <Person>2</Person>
+        <Reservation>true</Reservation>
+      </Room>
+      <Room>
+        <Roomnumber>7</Roomnumber>
+        <Price>13870</Price>
+        <Roomtype>suite</Roomtype>
+        <Person>1</Person>
+        <Reservation>true</Reservation>
+      </Room>
+      <Room>
+        <Roomnumber>101</Roomnumber>
+        <Price>20000</Price>
+        <Roomtype>suite</Roomtype>
+        <Person>2</Person>
+        <Reservation>false</Reservation>
+      </Room>
+    </Rooms>
+  </Hotel>
+  <Hotel>
+    <Name>Hampton Строгино</Name>
+    <Address>ул. Кулакова, 20 к.1</Address>
+    <Email>mowms_hampton@hilton.com</Email>
+    <Phone>+7 499 7450600</Phone>
+    <Rooms>
+      <Room>
+        <Roomnumber>1</Roomnumber>
+        <Price>6000</Price>
+        <Roomtype>standard</Roomtype>
+        <Person>1</Person>
+        <Reservation>false</Reservation>
+      </Room>
+      <Room>
+        <Roomnumber>119</Roomnumber>
+        <Price>19900</Price>
+        <Roomtype>suite</Roomtype>
+        <Person>2</Person>
+        <Reservation>true</Reservation>
+      </Room>
+      <Room>
+        <Roomnumber>22</Roomnumber>
+        <Price>14350</Price>
+        <Roomtype>semi-suite</Roomtype>
+        <Person>3</Person>
+        <Reservation>true</Reservation>
+      </Room>
+      <Room>
+        <Roomnumber>37</Roomnumber>
+        <Price>10000</Price>
+        <Roomtype>standard</Roomtype>
+        <Person>2</Person>
+        <Reservation>false</Reservation>
+      </Room>
+    </Rooms>
+  </Hotel>
+  <Hotel>
+    <Name>Украина</Name>
+    <Address>Кутузовский просп., 2/1с1</Address>
+    <Email>info.royal.moscow@radisson-hotels.ru</Email>
+    <Phone>+7 (495) 221-55-55</Phone>
+    <Rooms />
+  </Hotel>
+</ArrayOfHotel>

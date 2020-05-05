@@ -1,0 +1,30 @@
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\bin\Debug\ProjectList.exe.config
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\bin\Debug\ProjectList.exe
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\bin\Debug\ProjectList.pdb
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\obj\Debug\ProjectList.Form1.resources
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\obj\Debug\ProjectList.Properties.Resources.resources
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\obj\Debug\ProjectList.csproj.GenerateResource.cache
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\obj\Debug\ProjectList.csproj.CoreCompileInputs.cache
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\obj\Debug\ProjectList.exe
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\obj\Debug\ProjectList.pdb
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\obj\Debug\ProjectList.csprojAssemblyReference.cache
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\obj\Debug\ProjectList.FormRooms.resources
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\obj\Debug\ProjectList.AddForm.resources
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\obj\Debug\ProjectList.EditForm.resources
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\obj\Debug\ProjectList.AddRoomForm.resources
+C:\Users\Михаил\Desktop\Моя курсовая\ProjectList\ProjectList\obj\Debug\ProjectList.EditRoomForm.resources
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\bin\Debug\ProjectList.exe.config
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\bin\Debug\ProjectList.exe
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\bin\Debug\ProjectList.pdb
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\obj\Debug\ProjectList.csprojAssemblyReference.cache
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\obj\Debug\ProjectList.AddForm.resources
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\obj\Debug\ProjectList.AddRoomForm.resources
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\obj\Debug\ProjectList.EditForm.resources
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\obj\Debug\ProjectList.EditRoomForm.resources
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\obj\Debug\ProjectList.Form1.resources
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\obj\Debug\ProjectList.FormRooms.resources
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\obj\Debug\ProjectList.Properties.Resources.resources
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\obj\Debug\ProjectList.csproj.GenerateResource.cache
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\obj\Debug\ProjectList.csproj.CoreCompileInputs.cache
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\obj\Debug\ProjectList.exe
+C:\Users\Михаил\Desktop\Бондарев ПИ18-3 курсовая работа\Гостиницы Москвы\ProjectList\obj\Debug\ProjectList.pdb

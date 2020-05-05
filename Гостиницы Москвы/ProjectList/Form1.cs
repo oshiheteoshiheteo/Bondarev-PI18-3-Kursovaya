@@ -69,12 +69,11 @@ namespace ProjectList
         }
 
         //----------Отображение списка номеров------------
-        private void dataGridView1_CellDoubleClick(object sender,
-        DataGridViewCellEventArgs e)
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             if (dataGridView1.CurrentRow == null
             || dataGridView1.CurrentRow.Index ==
-            dataGridView1.RowCount - 1) // Новая строка
+            dataGridView1.RowCount) // Новая строка
                 return;
 
             FormRooms formR = new FormRooms();

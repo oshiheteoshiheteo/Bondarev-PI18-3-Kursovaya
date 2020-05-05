@@ -156,28 +156,27 @@ namespace ProjectList
                 }
             }
             
-            if (select) label2.Text = string.Format("Список номеров отфильтрован: { 0}, { 1}, { 2}, { 3}, { 4}, { 5}",
+            if (select) label2.Text = string.Format("Список номеров отфильтрован: {0}, {1}, {2}, {3}, {4}, {5}",
             textBoxRoomnumber.Text, textBoxRoomtype.Text, textBoxPerson.Text, textBoxPriceLow.Text, textBoxPriceHigh.Text, textBoxReserv.Text);
 
             // Перенести фокус на первый отображаемый номер, если он есть.
-            for (int i = 0; i < dataGridView2.RowCount - 1; i++)
+            for (int i = 0; i < dataGridView2.RowCount; i++)
 
             if (dataGridView2.Rows[i].Visible == true)
             {
-                // Перейти на добавленного студента. Его индекс = i.
+                // Перейти на добавленный номер. Его индекс = i.
                 dataGridView2.CurrentCell = dataGridView2[1, i];
                 break;
             }
         }
 
-        // Метод проверяет ячейки переданной строки
-        // на одновременное равенство всем критериям.
+        // Метод проверяет ячейки переданной строки на одновременное равенство всем критериям.
         private bool TestRow(int r)
         {
             Room rm = Form1.listH[h].Rooms[r];
-            if (textBoxRoomnumber.Text != "" && !rm.Roomnumber.Equals(textBoxRoomnumber.Text)) return false;
+            if (textBoxRoomnumber.Text != "" && rm.Roomnumber != Convert.ToInt32(textBoxRoomnumber.Text)) return false;
             if (textBoxRoomtype.Text != "" && !rm.Roomtype.StartsWith(textBoxRoomtype.Text)) return false;
-            if (textBoxPerson.Text != "" && !rm.Person.Equals(textBoxPerson.Text)) return false;
+            if (textBoxPerson.Text != "" && rm.Person != Convert.ToInt32(textBoxPerson.Text)) return false;
 
             int prlow, prhigh;
             int.TryParse(textBoxPriceLow.Text, out prlow);
@@ -237,7 +236,7 @@ namespace ProjectList
                 list.Sort((a1, a2) => d* a1.Person.CompareTo(a2.Person));
                     break;
 
-                case "reservation":
+                case "reserv":
                 list.Sort((a1, a2) => d* a1.Reservation.CompareTo(a2.Reservation));
                     break;
 

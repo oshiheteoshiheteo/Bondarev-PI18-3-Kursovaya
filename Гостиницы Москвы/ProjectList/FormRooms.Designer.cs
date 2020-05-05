@@ -30,6 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.roomnumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.roomtype = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.person = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.reserv = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.roomBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -60,17 +66,11 @@
             this.checkBox2Sort2 = new System.Windows.Forms.CheckBox();
             this.checkBox1Sort2 = new System.Windows.Forms.CheckBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.roomnumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.roomtype = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.person = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.reserv = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.roomBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roomBindingSource)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.roomBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView2
@@ -94,12 +94,62 @@
             this.dataGridView2.Location = new System.Drawing.Point(13, 207);
             this.dataGridView2.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
             this.dataGridView2.RowHeadersWidth = 62;
             this.dataGridView2.RowTemplate.Height = 28;
             this.dataGridView2.Size = new System.Drawing.Size(763, 273);
             this.dataGridView2.TabIndex = 0;
             this.dataGridView2.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.dataGridView2_CellValidating);
             this.dataGridView2.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView2_ColumnHeaderMouseClick);
+            // 
+            // roomnumber
+            // 
+            this.roomnumber.DataPropertyName = "Roomnumber";
+            this.roomnumber.HeaderText = "Номер комнаты";
+            this.roomnumber.MinimumWidth = 8;
+            this.roomnumber.Name = "roomnumber";
+            this.roomnumber.ReadOnly = true;
+            this.roomnumber.Width = 184;
+            // 
+            // price
+            // 
+            this.price.DataPropertyName = "Price";
+            this.price.HeaderText = "Цена";
+            this.price.MinimumWidth = 8;
+            this.price.Name = "price";
+            this.price.ReadOnly = true;
+            this.price.Width = 94;
+            // 
+            // roomtype
+            // 
+            this.roomtype.DataPropertyName = "Roomtype";
+            this.roomtype.HeaderText = "Тип комнаты";
+            this.roomtype.MinimumWidth = 8;
+            this.roomtype.Name = "roomtype";
+            this.roomtype.ReadOnly = true;
+            this.roomtype.Width = 158;
+            // 
+            // person
+            // 
+            this.person.DataPropertyName = "Person";
+            this.person.HeaderText = "Кол-во персон";
+            this.person.MinimumWidth = 8;
+            this.person.Name = "person";
+            this.person.ReadOnly = true;
+            this.person.Width = 166;
+            // 
+            // reserv
+            // 
+            this.reserv.DataPropertyName = "Reservation";
+            this.reserv.HeaderText = "Бронь";
+            this.reserv.MinimumWidth = 8;
+            this.reserv.Name = "reserv";
+            this.reserv.ReadOnly = true;
+            this.reserv.Width = 73;
+            // 
+            // roomBindingSource
+            // 
+            this.roomBindingSource.DataSource = typeof(ProjectList.Room);
             // 
             // button1
             // 
@@ -407,50 +457,6 @@
             this.comboBox1.Size = new System.Drawing.Size(214, 33);
             this.comboBox1.TabIndex = 0;
             // 
-            // roomnumber
-            // 
-            this.roomnumber.DataPropertyName = "Roomnumber";
-            this.roomnumber.HeaderText = "Номер комнаты";
-            this.roomnumber.MinimumWidth = 8;
-            this.roomnumber.Name = "roomnumber";
-            this.roomnumber.Width = 184;
-            // 
-            // price
-            // 
-            this.price.DataPropertyName = "Price";
-            this.price.HeaderText = "Цена";
-            this.price.MinimumWidth = 8;
-            this.price.Name = "price";
-            this.price.Width = 94;
-            // 
-            // roomtype
-            // 
-            this.roomtype.DataPropertyName = "Roomtype";
-            this.roomtype.HeaderText = "Тип комнаты";
-            this.roomtype.MinimumWidth = 8;
-            this.roomtype.Name = "roomtype";
-            this.roomtype.Width = 158;
-            // 
-            // person
-            // 
-            this.person.DataPropertyName = "Person";
-            this.person.HeaderText = "Кол-во персон";
-            this.person.MinimumWidth = 8;
-            this.person.Name = "person";
-            this.person.Width = 166;
-            // 
-            // reserv
-            // 
-            this.reserv.DataPropertyName = "Reservation";
-            this.reserv.HeaderText = "Бронь";
-            this.reserv.MinimumWidth = 8;
-            this.reserv.Name = "reserv";
-            this.reserv.Width = 73;
-            // 
-            // roomBindingSource
-            // 
-            this.roomBindingSource.DataSource = typeof(ProjectList.Room);
-            // 
             // FormRooms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -481,13 +487,13 @@
             this.Text = "Список номеров гостиницы ";
             this.Load += new System.EventHandler(this.FormRooms_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roomBindingSource)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.roomBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

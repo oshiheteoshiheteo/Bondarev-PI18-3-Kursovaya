@@ -80,6 +80,7 @@
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.Location = new System.Drawing.Point(12, 78);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(896, 236);
@@ -92,6 +93,7 @@
             this.name.HeaderText = "Название гостиницы";
             this.name.MinimumWidth = 8;
             this.name.Name = "name";
+            this.name.ReadOnly = true;
             this.name.Width = 219;
             // 
             // address
@@ -100,6 +102,7 @@
             this.address.HeaderText = "Адрес";
             this.address.MinimumWidth = 8;
             this.address.Name = "address";
+            this.address.ReadOnly = true;
             this.address.Width = 105;
             // 
             // email
@@ -108,6 +111,7 @@
             this.email.HeaderText = "Эл. почта";
             this.email.MinimumWidth = 8;
             this.email.Name = "email";
+            this.email.ReadOnly = true;
             this.email.Width = 128;
             // 
             // phone
@@ -116,6 +120,7 @@
             this.phone.HeaderText = "Телефон";
             this.phone.MinimumWidth = 8;
             this.phone.Name = "phone";
+            this.phone.ReadOnly = true;
             this.phone.Width = 135;
             // 
             // count
